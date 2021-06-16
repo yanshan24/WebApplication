@@ -1,0 +1,30 @@
+﻿@page
+@model WebApplicationDemo.Pages.ImageModel
+@{
+    ViewData["Title"] = "Image";
+}
+<h1>@ViewData["Title"] - WebApplicationDemo</h1>
+
+<p>The time is @DateTime.Now</p>
+<img src="https://pic.onlinewebfonts.com/svg/img_286633.png" alt="SampleImage" width="300" height="300">
+
+<form asp-controller="Demo" asp-action="RegisterInput" method="post">
+    Company Name:  <input asp-for="CompanyName" type="text" /><br />
+    Contact Name:  <input asp-for="ContactName" type="text" /><br />
+    Employed:  <input asp-for="EmployBool" type="checkbox" /><br />
+    <button type="submit">Submit</button>
+</form><br clear="all" />
+
+<div class="Info">
+    You entered:<br />
+    Company name:  @ViewData["Company"]<br />
+    Contact Name:  @ViewData["Contact"]<br />
+    Employed:  @ViewData["Employ"]<br />
+
+    </div>
+
+<div class="links"><br clear="all" />
+    <br />Links:
+    <a class="nav-link text-dark" asp-area="" asp-page="/Index">Back to Home</a>
+
+</div>
