@@ -10,6 +10,6 @@ namespace WebAppCoreDemo
 
         public string description { get; set; }
 
-        public int[] agentIds { get; set; }
+        public string[] agents { get; set; }
     }
 }
