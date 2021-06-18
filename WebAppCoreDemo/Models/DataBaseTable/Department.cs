@@ -1,6 +1,6 @@
 using System;
 
-namespace WebAppCoreDemo
+namespace WebAppCoreDemo.Models.DataBaseTable
 {
     public class Department
     {
@@ -10,6 +10,6 @@ namespace WebAppCoreDemo
 
         public string description { get; set; }
 
-        public string[] agents { get; set; }
+        public string agents { get; set; }
     }
 }
