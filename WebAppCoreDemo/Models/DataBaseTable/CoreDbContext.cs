@@ -25,7 +25,5 @@ namespace WebAppCoreDemo.Models.DataBaseTable
         }
 
         public DbSet<Department> department { get; set; }
-        //public DbSet<Department> department { get; set; }
-
     }
 }
