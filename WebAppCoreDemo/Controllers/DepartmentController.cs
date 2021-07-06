@@ -41,7 +41,7 @@ namespace WebAppCoreDemo.Controllers
         public IActionResult GetId(int id)
         {
             CoreDbContext db = new CoreDbContext();
-            var o = db.department.Where(t=> t.id == id).FirstOrDefault();
+            var o = db.department.Where(t => t.id == id).FirstOrDefault();
             if (o == null)
             {
                 return NotFound();
