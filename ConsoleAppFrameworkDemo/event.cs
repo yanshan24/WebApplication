@@ -2,7 +2,7 @@ using System;
 
 namespace EventApp
 {
-    
+
     public class Dog
     {
         string name;
@@ -13,7 +13,7 @@ namespace EventApp
             name = a;
             Console.WriteLine("Dog " + name + " is created");
         }
-        
+
         public void SetName(string NewName)
         {
             name = NewName;
@@ -36,6 +36,6 @@ namespace EventApp
         {
             Console.WriteLine(name + " is subscribed");
         }
-    } 
-    
+    }
+
 }

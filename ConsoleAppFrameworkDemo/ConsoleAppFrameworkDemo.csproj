@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="event.cs" />
+    <Compile Include="AnonymousMethod.cs" />
+    <Compile Include="Attribute.cs" />
+    <Compile Include="Indexer.cs" />
+    <Compile Include="ReflectionClass.cs" />
+    <Compile Include="Event.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
